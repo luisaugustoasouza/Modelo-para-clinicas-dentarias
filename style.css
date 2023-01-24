@@ -255,3 +255,213 @@ body {
   font-size: 14px;
   color: var(--gray-200);
 }
+
+@media (min-width: 768px) {
+  /* Presentation */
+
+  .presentation {
+    flex-direction: row;
+  }
+
+  .presentation__description-container {
+    align-items: flex-start;
+    margin-right: 72px;
+  }
+
+  .presentation__title {
+    text-align: left;
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .presentation__text {
+    text-align: left;
+  }
+
+  .presentation__image {
+    margin-top: 0;
+  }
+
+  /* About us */
+
+  .about-us {
+    flex-direction: row;
+  }
+
+  .about-us__description-container {
+    margin-right: 90px;
+  }
+
+  .about-us__tag {
+    text-align: left;
+  }
+
+  .about-us__title {
+    text-align: left;
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .about-us__text {
+    text-align: left;
+  }
+
+  .about-us__image {
+    margin-top: 0;
+  }
+
+  /* Services */
+
+  .services__title {
+    font-size: 26px;
+  }
+
+  .services__items-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .services__item {
+    width: 100%;
+  }
+
+  /* Bottom slogan */
+
+  .bottom-slogan-container {
+    padding: 0;
+  }
+
+  .bottom-slogan {
+    flex-direction: row;
+  }
+
+  .bottom-slogan__text {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .bottom-slogan__image {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  /* Global */
+
+  .about-us,
+  .services,
+  .bottom-slogan-container,
+  .footer {
+    margin-top: 150px;
+  }
+
+  /* Header */
+
+  .header__logo {
+    width: 181px;
+  }
+
+  .header__cta {
+    width: 183px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  /* Presentation */
+
+  .presentation__image {
+    max-width: 420px;
+  }
+
+  /* About us */
+
+  .about-us__image {
+    max-width: 400px;
+  }
+
+  /* Bottom slogan */
+
+  .bottom-slogan__image {
+    max-width: 431px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  /* Presentation */
+
+  .presentation__title {
+    font-size: 36px;
+    line-height: 55px;
+  }
+
+  .presentation__text {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .presentation__image {
+    max-width: 620px;
+  }
+
+  /* About us */
+
+  .about-us__tag {
+    font-size: 24px;
+  }
+
+  .about-us__title {
+    font-size: 36px;
+    line-height: 55px;
+  }
+
+  .about-us__text {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .about-us__image {
+    max-width: 558px;
+  }
+
+  /* Services */
+
+  .services__tag {
+    font-size: 24px;
+  }
+
+  .services__title {
+    font-size: 36px;
+  }
+
+  .services__image-item {
+    width: 100px;
+  }
+
+  .services__description-item {
+    font-size: 20px;
+  }
+
+  /* Bottom slogan */
+
+  .bottom-slogan__description-container {
+    margin-right: 72px;
+  }
+
+  .bottom-slogan__tag {
+    font-size: 24px;
+  }
+
+  .bottom-slogan__text {
+    font-size: 36px;
+    line-height: 55px;
+  }
+
+  /* Footer */
+
+  .footer__text {
+    font-size: 16px;
+  }
+
+}
